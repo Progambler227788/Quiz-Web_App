@@ -1,0 +1,69 @@
+body {
+    display: flex;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: white;
+    color: #343a40;
+    height: 100vh;
+    padding-top: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    position: relative; /* Add position relative for the sidebar */
+}
+#sidebar.collapsed {
+    transform: translateX(-250px);
+}
+#sidebar a {
+    color: #343a40;
+    text-decoration: none;
+    margin-bottom: 20px; /* Add more space between sidebar options */
+}
+#sidebar .nav-link.active {
+    background-color: #66FCF1;
+    color: #343a40;
+}
+#sidebar .nav-link:hover {
+    background-color: #66FCF1;
+    color: #343a40;
+}
+#content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.card {
+    margin: 20px; /* Add more space between dashboard cards */
+    color: black; /* Set text color to black */
+    background-color: #66FCF1;
+}
+.dashboard-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-custom {
+    background-color: #66FCF1;
+    color: black; /* Set text color of buttons to black */
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #5cc9c3;
+}
+.title-colored {
+    display: inline;
+}
+.title-colored .quiz {
+    color: black;
+}
+.title-colored .zone {
+    color: #66FCF1;
+}
+.btn-add-user {
+    background-color: #66FCF1;
+    color: black;
+}
+.btn-add-user {
+     background-color: #66FCF1;
+    color: black;
+        }
+  

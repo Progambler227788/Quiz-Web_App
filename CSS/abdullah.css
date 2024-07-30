@@ -1,0 +1,161 @@
+
+/* Abdullah CSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;500;600;700;800;900&display=swap");
+*{
+    margin : 0;
+    padding: 0;
+}
+/* Universal selector */
+.f_poppins {
+    font-family: "Poppins";
+   
+}
+
+.main-section {
+    min-width: 347px;
+   
+}
+
+.heading {
+    margin-bottom: 2rem;
+   
+}
+
+.font-14-r {
+    font-family: "Roboto";
+    font-size: 14.43px;
+    margin-bottom: 0;
+    color: #0000009c;
+    padding: 0;
+}
+
+.form-box {
+    border: 1px solid #C1BBBB;
+   
+}
+
+.form-input {
+    color: #013C80;
+    outline: none;
+    border-radius: 0;
+   
+}
+
+.form-input:focus {
+    color: #013C80;
+    border-color: #FFFFFF;
+    box-shadow: none;
+   
+}
+
+.form-input[type=password] ::placeholder {
+    color: #999;
+   
+}
+
+.form-check-input[type=checkbox] {
+    border: 1px solid #B4B4B4;
+    border-radius: 0;
+   
+}
+
+.form-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.action-button {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 43px;
+  
+}
+
+.action-button>button {
+    background-color: #FFFFFF;
+    font-family: "Poppins";
+    font-size: 11.61px;
+    padding: 9px 14.6px;
+    border: 1px solid #66FCF1;
+    box-shadow: rgba(247, 202, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+   
+}
+
+.action-button>button:hover {
+    font-weight: 500;
+    background-color: #66FCF1;
+   
+}
+
+
+/* category CSS  */
+.category_section {
+    min-width: 545px;
+   
+}
+
+.cate_box {
+    margin-top: 48px;
+}
+
+.action_button {
+    width: 352px;
+    height: 85.6px;
+    font-size: 36px;
+    margin: auto;
+    background-color: #66FCF1;
+    border: none;
+    padding: 0;
+    box-shadow: rgb(247 202 0 / 27%) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+/* category CSS  */
+
+/* media queries  */
+@media only screen and (max-width: 425px) {
+    .main-section {
+        min-width: 0;
+        max-width: 347px;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .category_section {
+        min-width: 0;
+        max-width: 545px;
+    }
+}
+
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+}
+.heading span {
+    color: #66FCF1 ; 
+}
+
+.leaderboard-table {
+width: 80%;
+
+margin: auto;
+}
+.leaderboard-table th, .leaderboard-table td {
+text-align: left;
+padding: 10px;
+}
+.leaderboard-table th {
+background-color: #66FCF1; 
+color: black;
+}
+.leaderboard-table tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+
+/* End of Abdullah CSS */
